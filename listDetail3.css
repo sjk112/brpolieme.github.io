@@ -1,0 +1,110 @@
+﻿/* 标题*/
+
+@font-face {
+    font-family: 'PingFangSC';
+    src: url('../yisha/css/PingFang-Jian-ChangGuiTi-2.ttf');
+}
+.select-list > ul > li {
+    margin: 5px 0px;
+    margin-right: 29px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container-div {
+    font-family: 'PingFangSC' !important;
+}
+
+.select-list > ul > .active {
+    color: #4994fb;
+}
+
+.select-list > ul > li img {
+    width: 14px;
+    height: 14px;
+    margin-right: 7px;
+}
+
+.search-collapse, .select-table {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.titlesBox {
+    width: auto;
+    height: 20px;
+    font-family: 'PingFangSC';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-left: 32px;
+    margin-top: 28px;
+    font-weight:600;
+}
+
+    .titlesBox .titles {
+        width: 15px;
+        height: 15px;
+        margin-right: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .titlesBox .titles img {
+            width: 15px;
+            height: 15px;
+        }
+
+    .titlesBox .text {
+        width: 84px;
+        height: 20px;
+        font-family: 'PingFangSC';
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        letter-spacing: 1px;
+        color: #333333;
+    }
+.newContainer {
+    width:100%;
+    margin-top:32px;
+   display:flex;
+   justify-content:center;
+
+}
+    .newContainer .newContainerBox {
+      
+        width: calc((100% - 520px));
+        height: 100%;
+       
+    }
+        .newContainer .newContainerBox .titles {
+            width: auto;
+          /*  height: 24px;*/
+            font-family: PingFangSC;
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            letter-spacing: 2px;
+            color: #333333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .newContainer .newContainerBox .bookCon {
+            font-family: PingFangSC;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            line-height: 14px;
+            letter-spacing: 1px;
+            color: #333333;
+          
+        }
+        .newContainer .newContainerBox  img{
+           width:100%;
+        }
